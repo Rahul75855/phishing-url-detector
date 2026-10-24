@@ -43,7 +43,7 @@ You paste a URL in a simple web app, click **Check**, and get:
 
 Kaggle: [Phishing Site URLs](https://www.kaggle.com/datasets/taruntiwarihp/phishing-site-urls)
 
-Download the CSV, rename it to `phishing\\\\\\\\\\\\\\\_site\\\\\\\\\\\\\\\_urls.csv` if needed, and place it in the same folder as `phishing\\\\\\\\\\\\\\\_detector.py`. The dataset is not included in this repo because of its size and Kaggle's terms.
+Download the CSV, rename it to `phishing_site_urls.csv` if needed, and place it in the same folder as `phishing_detector.py`. The dataset is not included in this repo because of its size and Kaggle's terms.
 
 ## How to run
 
@@ -55,11 +55,11 @@ cd phishing-url-detector
 # 2. Install requirements
 pip install -r requirements.txt
 
-# 3. Put phishing\\\\\\\\\\\\\\\_site\\\\\\\\\\\\\\\_urls.csv in this folder, then run
-streamlit run phishing\\\\\\\\\\\\\\\_detector.py
+# 3. Put phishing_site_urls.csv in this folder, then run
+streamlit run phishing_detector.py
 ```
 
-The app opens at `http://localhost:8501`. The first run trains the model (about 30 to 60 seconds), after that it is cached.
+The app opens at `http://localhost:XXXX`. The first run trains the model (about 30 to 60 seconds), after that it is cached.
 
 ## Example
 
